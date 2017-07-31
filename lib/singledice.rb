@@ -3,11 +3,11 @@ class SingleDice
   attr_accessor :dice
   
   def initialize
-    @dice = (1..6)
+    @dice = dice
   end
   
   def roll
-    outcome = rand(@dice)
+   1 + rand(6) 
   end
 
 end
